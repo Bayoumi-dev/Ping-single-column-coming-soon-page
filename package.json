@@ -4,7 +4,8 @@
   "description": "Frontend Mentor Challenge | Ping single column coming soon page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Bayoumi-dev/Ping-single-column-coming-soon-page/issues"
   },
-  "homepage": "https://github.com/Bayoumi-dev/Ping-single-column-coming-soon-page#readme"
+  "homepage": "https://github.com/Bayoumi-dev/Ping-single-column-coming-soon-page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
 }

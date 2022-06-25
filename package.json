@@ -1,24 +1,25 @@
 {
-  "name": "ping-single-column-coming-soon-page",
-  "version": "1.0.0",
-  "description": "Frontend Mentor Challenge | Ping single column coming soon page",
-  "main": "index.js",
-  "scripts": {
-    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Bayoumi-dev/Ping-single-column-coming-soon-page.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Bayoumi-dev/Ping-single-column-coming-soon-page/issues"
-  },
-  "homepage": "https://github.com/Bayoumi-dev/Ping-single-column-coming-soon-page#readme",
-  "devDependencies": {
-    "tailwindcss": "^3.1.4"
-  }
+   "name": "ping-single-column-coming-soon-page",
+   "version": "1.0.0",
+   "description": "Frontend Mentor Challenge | Ping single column coming soon page",
+   "main": "index.js",
+   "scripts": {
+      "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+      "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+      "format": "prettier --write */**"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Bayoumi-dev/Ping-single-column-coming-soon-page.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/Bayoumi-dev/Ping-single-column-coming-soon-page/issues"
+   },
+   "homepage": "https://github.com/Bayoumi-dev/Ping-single-column-coming-soon-page#readme",
+   "devDependencies": {
+      "tailwindcss": "^3.1.4"
+   }
 }

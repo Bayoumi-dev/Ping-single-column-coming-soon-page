@@ -8,6 +8,25 @@
 @layer base {
    html {
       font-family: 'Libre Franklin', sans-serif;
+      scroll-behavior: smooth;
+      scrollbar-width: thin;
+      scrollbar-color: hsl(223, 87%, 63%) hsl(223, 100%, 88%);
+   }
+   ::-webkit-scrollbar {
+      max-width: 10px;
+      border-radius: 0px;
+   }
+   ::-webkit-scrollbar-track {
+      background: hsla(223, 100%, 88%, 50%);
+      box-shadow: inset 0 0 5px rgba(#49566d, 0.3);
+      border-radius: 7px;
+   }
+   ::-webkit-scrollbar-thumb {
+      background: hsl(223, 87%, 63%);
+      border-radius: 10px;
+   }
+   ::-webkit-scrollbar-thumb:hover {
+      background: hsla(223, 87%, 63%, 80%);
    }
    [hidden] {
       display: none !important;

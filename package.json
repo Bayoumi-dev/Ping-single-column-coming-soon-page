@@ -4,8 +4,8 @@
    "description": "Frontend Mentor Challenge | Ping single column coming soon page",
    "main": "index.js",
    "scripts": {
-      "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-      "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+      "dev:css": "tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch",
+      "build:css": "tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css",
       "format": "prettier --write */**"
    },
    "repository": {

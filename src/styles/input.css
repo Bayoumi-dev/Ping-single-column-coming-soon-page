@@ -9,4 +9,13 @@
    html {
       font-family: 'Libre Franklin', sans-serif;
    }
+   [hidden] {
+      display: none !important;
+   }
+}
+
+@layer utilities {
+   .error {
+      @apply focus:border-none focus:outline outline-2 outline-red;
+   }
 }
